@@ -14727,7 +14727,9 @@ footer .mob_footer .text p+p {
         left: 0;
         font-size: 5.9375rem;
         width: 56.25rem;
-        padding-bottom: 7.5rem
+        padding-bottom: 7.5rem;
+        text-align: end;
+        top: 75px;
     }
 }
 
