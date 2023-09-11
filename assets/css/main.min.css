@@ -3645,7 +3645,6 @@ tbody.collapse.show {
     background-color: #007bff
 }
 
-.
 
 .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label:before {
     background-color: rgba(0, 123, 255, 0.5)
