@@ -3642,6 +3642,7 @@ tbody.collapse.show {
 
 
 .custom-checkbox .custom-control-input:indeterminate~.custom-control-label:before {
+    
     background-color: #007bff
 }
 
