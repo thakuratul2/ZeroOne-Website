@@ -273,7 +273,264 @@
 	margin-top: 8px;
   }
 
-  .card .info button:hover {
-	background: dodgerblue;
+ 
+/* card 2 */
+  .card21{
+	width: 280px;
+	height: 360px;
+
+	padding: 1.5rem;
+	background-color: #3E0000;
+	position: relative;
+	display: flex;
 	
+	transition: 0.4s ease-out;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+  .card21:hover {
+	transform: translateY(20px);
+  }
+  .card21:hover:before {
+	opacity: 1;
+  }
+  .card21:hover .info {
+	opacity: 1;
+	transform: translateY(0px);
+  }
+  .card21:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+	background: #3E0000;
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+  }
+  .card21 img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+  }
+  .card21 .info {
+	position: relative;
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s;
+  }
+  .card21 .info h1 {
+	margin: 0px;
+  }
+  .card21 .info p {
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 8px;
+  }
+/* card 2 */
+  .card22{
+	width: 280px;
+	height: 360px;
+
+	padding: 1.5rem;
+	background-color: #7C0000;
+	position: relative;
+	display: flex;
+	
+	transition: 0.4s ease-out;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+  .card22:hover {
+	transform: translateY(20px);
+  }
+  .card22:hover:before {
+	opacity: 1;
+  }
+  .card22:hover .info {
+	opacity: 1;
+	transform: translateY(0px);
+  }
+  .card22:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+	background: #7C0000;
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+  }
+  .card22 img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+  }
+  .card22 .info {
+	position: relative;
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s;
+  }
+  .card22 .info h1 {
+	margin: 0px;
+  }
+  .card22 .info p {
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 8px;
+  }
+
+  /* card 3 */
+  .card23{
+	width: 280px;
+	height: 360px;
+
+	padding: 1.5rem;
+	background-color: #BA0000;
+	position: relative;
+	display: flex;
+	
+	transition: 0.4s ease-out;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+  .card23:hover {
+	transform: translateY(20px);
+  }
+  .card23:hover:before {
+	opacity: 1;
+  }
+  .card23:hover .info {
+	opacity: 1;
+	transform: translateY(0px);
+  }
+  .card23:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+	background: #BA0000;
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+  }
+  .card23 img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+  }
+  .card23 .info {
+	position: relative;
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s;
+  }
+  .card23 .info h1 {
+	margin: 0px;
+  }
+  .card23 .info p {
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 8px;
+  }
+
+  /* card 4 */
+  .card24{
+	width: 280px;
+	height: 360px;
+
+	padding: 1.5rem;
+	background-color: #E20422;
+	position: relative;
+	display: flex;
+	
+	transition: 0.4s ease-out;
+	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+  }
+  .card24:hover {
+	transform: translateY(20px);
+  }
+  .card24:hover:before {
+	opacity: 1;
+  }
+  .card24:hover .info {
+	opacity: 1;
+	transform: translateY(0px);
+  }
+  .card24:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+	background: #E20422;
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+  }
+  .card24 img {
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+  }
+  .card24 .info {
+	position: relative;
+	z-index: 3;
+	color: white;
+	opacity: 0;
+	transform: translateY(30px);
+	transition: 0.5s;
+  }
+  .card24 .info h1 {
+	margin: 0px;
+  }
+  .card24 .info p {
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 8px;
+  }
+
+  #direction{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
