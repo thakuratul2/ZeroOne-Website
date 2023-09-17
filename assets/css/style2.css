@@ -534,11 +534,12 @@
 	background: white;
 	color: black;
 	font-weight: bold;
+	margin-top: 15px;
 	cursor: pointer;
 	transition: 0.4s ease;
   }
   .card .info button:hover {
-	background: dodgerblue;
+	background: #ac091e;
 	color: white;
   }
   #direction{
