@@ -208,6 +208,7 @@
 	display: flex;
 	width: 90%;
 	justify-content: space-around;
+	gap: 15px;
   }
   
   .card {
@@ -525,7 +526,21 @@
 	font-size: 15px;
 	margin-top: 8px;
   }
-
+  .card .info button {
+	padding: 0.6rem;
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	background: white;
+	color: black;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 0.4s ease;
+  }
+  .card .info button:hover {
+	background: dodgerblue;
+	color: white;
+  }
   #direction{
 	display: flex;
     flex-direction: row;
