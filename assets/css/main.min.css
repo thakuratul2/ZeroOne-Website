@@ -10010,11 +10010,13 @@ textarea:focus::placeholder {
     display: inline-block;
     font-size: 1.25rem;
     padding-left: 0;
-    padding-right: 4.6875rem;
+    padding-right:4.6875rem;
     position: relative;
     color: #fff;
     line-height: 3.125rem;
     border-radius: 3.125rem;
+    border: none;
+    
     overflow: hidden
 }
 
@@ -10135,7 +10137,7 @@ textarea:focus::placeholder {
     height: 100%;
     width: 0;
     border-radius: 3.125rem;
-    background-color: #EB2248;
+    border: 1px solid red;
     transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
