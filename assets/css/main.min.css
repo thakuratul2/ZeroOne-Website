@@ -13467,21 +13467,21 @@ header .top_header .right .menu_click .icon {
 
 @media (max-width:1599.98px) {
     .side_menu ul {
-        height: 37.5rem
+        height: 30.5rem
     }
 }
 
 @media (max-width:1439.98px) {
     .side_menu ul {
-        height: 34.375rem
+        height: 30.375rem
     }
 }
 
 .side_menu ul li a {
     display: block;
     transform: scale(-1);
-    line-height: 1;
-    font-size: 0.625rem;
+    
+    font-size: 13px;
     color: white;
     opacity:80%;
     text-transform: uppercase;
