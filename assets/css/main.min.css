@@ -15251,10 +15251,10 @@ footer .mob_footer .text p+p {
 
 @media(max-widht: 1359.98px){
     .shadow{
-        position: absolute;
+        margin-bottom: 0.9375rem;
     }
     .shadow2{
-        position: absolute;
+        margin-bottom: 0.9375rem;
     }
 }
 @media (max-width:1359.98px) {
