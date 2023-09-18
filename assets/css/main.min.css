@@ -15135,10 +15135,28 @@ footer .mob_footer .text p+p {
     position:absolute;
     top:100%;
     font-size:10rem;
-    -webkit-text-stroke-width: 3px;
-  -webkit-text-stroke-color: red;
-  opacity:15%;
+    margin-top: 66px;
+    -webkit-text-stroke: 6px red;
+    opacity: 0.40;
   margin-left:350%;
+}
+.shadow2{
+    position:absolute;
+    top:100%;
+    font-size:10rem;
+   
+    -webkit-text-stroke: 6px red;
+    opacity: 40%;
+  margin-left:350%;
+}
+
+@media(max-widht: 1359.98px){
+    .shadow{
+        position: absolute;
+    }
+    .shadow2{
+        position: absolute;
+    }
 }
 @media (max-width:1359.98px) {
     .service_sec .content_div .sec_head {

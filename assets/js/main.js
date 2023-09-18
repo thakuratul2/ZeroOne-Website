@@ -63,20 +63,40 @@ $(document).ready(function () {
     ).on("click", function () {
       $("body").removeClass("open_menu");
     }),
+    $(function () {
+      $(".typed").typed({
+        strings: ['Welcome...', 'स्वागतम्', 'Bienvenu', 'Willkommen','いらっしゃいませ','Bienvenido','Welkom','Benvenuto','환영','Witamy','добро пожаловать','Welcome...'],
+        stringsElement: null,
+        typeSpeed: 80,
+        startDelay: 50,
+        backSpeed: 50,
+        backDelay: 1e3,
+        loop: !0,
+        loopCount: 150,
+        showCursor: !1,
+        cursorChar: "|",
+        attr: null,
+        contentType: "html",
+        callback: function () {},
+        preStringTyped: function () {},
+        onStringTyped: function () {},
+        resetCallback: function () {},
+      });
+    }),
     $(window).width() < 1023.98 &&
       ($(window).on("scroll", function () {
         $(window).scrollTop() >= 250
           ? $(".scroll_button").addClass("hide")
           : $(".scroll_button").removeClass("hide");
       }),
-      (n = $(window).width() - $(".zerone").width()),
+      (n = $(window).width() - $(".audento").width()),
       (o = $(document).height() - $(window).height()),
       console.log(n, o),
       $(function () {
         $(window).on("scroll", function () {
           var e = $(window).scrollTop(),
             t = n * (e / o);
-          $(".zerone").css({ right: t + "%" });
+          $(".audento").css({ right: t + "%" });
         });
       }));
 });
