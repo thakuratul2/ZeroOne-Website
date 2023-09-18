@@ -10006,6 +10006,17 @@ textarea:focus::placeholder {
     border-radius: 3.125rem;
     overflow: hidden
 }
+._link2 {
+    display: inline-block;
+    font-size: 1.25rem;
+    padding-left: 0;
+    padding-right: 4.6875rem;
+    position: relative;
+    color: #fff;
+    line-height: 3.125rem;
+    border-radius: 3.125rem;
+    overflow: hidden
+}
 
 @media (max-width:1439.98px) {
     ._link {
@@ -10099,6 +10110,93 @@ textarea:focus::placeholder {
     -webkit-transition: all 0.3s ease-in-out;
     cursor: pointer
 }
+
+@media (max-width:1439.98px) {
+    ._link {
+        font-size: 1.125rem;
+        line-height: 2.625rem;
+        padding-right: 3.75rem
+    }
+}
+
+@media (max-width:640px) {
+    ._link2 {
+        font-size: 1rem;
+        line-height: 2.5rem;
+        padding-right: 3.125rem
+    }
+}
+
+._link2:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 3.125rem;
+    background-color: #EB2248;
+    transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    z-index: -1
+}
+
+._link2 span {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 3.125rem;
+    line-height: 3.125rem;
+    font-size: 1.125rem;
+    background-color: #EB2248;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out
+}
+
+@media (max-width:1439.98px) {
+    ._link2 span {
+        width: 2.625rem;
+        line-height: 2.625rem
+    }
+}
+
+@media (max-width:640px) {
+    ._link2 span {
+        width: 2.5rem;
+        line-height: 2.5rem;
+        font-size: 1rem
+    }
+}
+
+._link2:focus,
+._link2:hover {
+    color: #fff;
+    padding-left: 1.5625rem;
+    color: #fff
+}
+
+@media (max-width:1439.98px) {
+
+    ._link2:focus,
+    ._link2:hover {
+        padding-left: 1.125rem
+    }
+}
+
+._link2:focus:after,
+._link2:hover:after {
+    width: 100%
+}
+
 
 .text_btn {
     font-size: 1rem;
