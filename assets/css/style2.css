@@ -1,13 +1,9 @@
 
-
-.gallery__item {
-	margin: 0 3vw;
-	display: grid;
-	grid-template-areas: '... ...' 
-						 '... gallery-image'
-						 '... ...' ;
-	grid-template-columns: 8rem 21vmax;
-	grid-template-rows: 8rem 28vmax 3rem;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*,*::before,*::after{
+	box-sizing: border-box;
+	font-family: 'Open-Sans',sans-serif;
+	font-weight: 400;
 }
 
 .gallery__item:nth-child(even) {
@@ -480,4 +476,93 @@
 	  transform: scale(1.05);
 	}
   }
-  
+.row{
+	display: flex;
+	
+}
+.cards{
+	flex-wrap: wrap;
+	gap: 2em;
+	padding: 2em 0;
+}
+.card1{
+	align-items: flex-end;
+	justify-content: center;
+	position: relative;
+	max-width: 150px;
+	min-height: 500px;
+	text-align: center;
+	overflow: hidden;
+	background-color:#3E0000;
+	border-radius: 25px;
+	cursor: pointer;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-ms-border-radius: 25px;
+	-o-border-radius: 25px;
+	transition: max-width 0.5s ease-in-out;
+	-webkit-transition: max-width 0.5s ease-in-out;
+	-moz-transition: max-width 0.5s ease-in-out;
+	-ms-transition: max-width 0.5s ease-in-out;
+	-o-transition: max-width 0.5s ease-in-out;
+}
+.card1:nth-of-type(2){
+	background-color:#7C0000;
+}
+.card1:nth-of-type(3){
+	background-color: #E20422;
+}
+.card1:hover{
+	max-width: 300px;
+}
+.card1-body{
+	background: linear-gradient(180deg, rgba(45,45,45,0) 0% #2d2d2d 100%);
+	padding: 4rem;
+}
+.title1{
+	background: linear-gradient(180deg, rgba(45,45,45,0) 0% #2d2d2d);
+position: absolute;
+inset: 0;
+}
+.card1:hover .title1{
+	all: unset;
+}
+.text_new{
+font-size: clamp(38px, 5vw, 48px);
+color: #fffbfb;
+text-transform: uppercase;
+white-space: nowrap;
+margin: 0;
+transform: rotate(-90deg) translateX(-350px);
+-webkit-transform: rotate(-90deg) translateX(-350px);
+-moz-transform: rotate(-90deg) translateX(-350px);
+-ms-transform: rotate(-90deg) translateX(-350px);
+-o-transform: rotate(-90deg) translateX(-350px);
+}
+.card1:hover .text_new{
+	padding-bottom: 0.5rem;
+	transform: unset;
+	-webkit-transform: unset;
+	-moz-transform: unset;
+	-ms-transform: unset;
+	-o-transform: unset;
+}
+.about_text{
+	position: absolute;
+	font-size: 18px;
+	color: white;
+	margin: 0;
+	max-height: 0;
+	opacity: 0;
+	transition: max-height 0.3s ease-in-out;
+	-webkit-transition: max-height 0.3s ease-in-out;
+	-moz-transition: max-height 0.3s ease-in-out;
+	-ms-transition: max-height 0.3s ease-in-out;
+	-o-transition: max-height 0.3s ease-in-out;
+}
+.card1:hover .about_text{
+	position: relative;
+	opacity: 1;
+	max-height: 100%;
+	transition-delay: 0.3s;
+}
