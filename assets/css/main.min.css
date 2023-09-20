@@ -15237,13 +15237,12 @@ footer .mob_footer .text p+p {
   margin-left:350%;
 }
 .shadow2{
-    position:absolute;
-    top:100%;
-    font-size:10rem;
-   
-    -webkit-text-stroke: 6px red;
+    position: absolute;
+    top: 103%;
+    font-size: 77px;
+    -webkit-text-stroke: 4px red;
     opacity: 40%;
-  margin-left:350%;
+    margin-left: 346%;
 }
 
 @media(max-widht: 1359.98px){

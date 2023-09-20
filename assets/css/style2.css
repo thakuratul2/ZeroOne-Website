@@ -481,48 +481,69 @@
 	}
   }
   
-  .container2{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+ .container2{
+	width: 500px;
+	height: 63vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 50px;
+ }
+ .gallery{
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+ .img-box{
+	width: 100px;
+	height: 400px;
+	margin: 10px;
+	border-radius: 50px;
+	background-color: #3E0000;
+	position: relative;
+	transition: width 0.5s;
+ }
+ .img-box:nth-child(2){
+	background-color: #7C0000;
+ }
+ .img-box:nth-child(3){
+	background-color: #BA0000;
+ }
+ .img-box:nth-child(4){
+	background-color: #E20422;
+ }
+.img-box h3{
+	color: white;
+	
+	opacity: 0;
+	margin-left: 29px;
+    margin-top: 20px;
+	transition: bottom 0.5s, opacity 0.5s;
 }
-.panel{
-    width: 50px;
-    height: 90vh;
-    box-shadow: 0 0 10px black;
-    margin: 20px;
-    border-radius: 20px;
-    flex: 1;
-    background: white no-repeat scroll center;
-    transition: all 0.5s linear;
-    filter: grayscale(1);
-    position: relative;
+.img-box:hover{
+	width: 300px;
+	cursor: pointer;
 }
-.panel h3{
-    position: absolute;
-    left: 0;
-    bottom: 100px;
-    color: white;
-    font-size: 40px;
-    transform: rotate(-90deg);
-    transition: all 0.5s linear;
+.img-box:hover h3{
+	opacity: 1;
+	bottom: 25px;
 }
-.active{
-    flex: 6;
-    filter: grayscale(0);
+@media (max-width: 1359.98px){
+	.img-box{
+		width: 100px;
+		height: 400px;
+		margin: 10px;
+		border-radius: 50px;
+		background-color: #3E0000;
+		position: absolute;
+		transition: width 0.5s;
+	 }
+	 .img-box:hover{
+		width: 300px;
+		cursor: pointer;
+	}
+	.img-box:hover h3{
+		opacity: 1;
+		bottom: 25px;
+	}
 }
-.active h3{
-    transform: rotate(0deg);
-    left: 50px;
-    top: 50px;
-    text-shadow: 0 0 3px black;
-}
-
-#panel-1{ background-color: #3E0000;}
-#panel-2{ background-image: url("img/card_2.jpg")}
-#panel-3{ background-image: url("img/card_3.jpg")}
-#panel-4{ background-image: url("img/card_4.jpg")}
-#panel-5{ background-image: url("img/card_5.jpg")}
-#panel-6{ background-image: url("img/card_6.jpg")}
