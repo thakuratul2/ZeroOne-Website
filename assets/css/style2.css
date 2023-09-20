@@ -515,7 +515,7 @@ justify-content: center;
 .img-box h3{
 	color: white;
 	
-	opacity: 0;
+	opacity: 1;
 	margin-left: 29px;
     margin-top: 20px;
 	transition: bottom 0.5s, opacity 0.5s;
