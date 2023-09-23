@@ -16658,7 +16658,8 @@ footer .mob_footer .text p+p {
 @media (max-width:1800.98px) {
     .contact_sec {
         position: relative;
-        left: 0rem
+        left: 25rem;
+        
     }
 }
 
