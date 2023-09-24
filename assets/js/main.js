@@ -100,3 +100,39 @@ $(document).ready(function () {
         });
       }));
 });
+
+
+function expandImgBox(ImgBox) {
+  ImgBox.querySelector('.title').style.display = 'none';
+ 
+ 
+  ImgBox.querySelector('.img-title').style.display = 'block';
+  ImgBox.querySelector('.title_new').style.display = 'block';
+
+}
+
+function collapseImgBox(ImgBox) {
+  ImgBox.querySelector('.title').style.display = 'block';
+  ImgBox.querySelector('.img-title').style.display = 'none';
+  ImgBox.querySelector('.title_new').style.display = 'none';
+}
+
+
+const navLinks = document.querySelectorAll('nav a');
+
+function updateNavColor() {
+    const scrollX = window.scrollX || window.pageXOffset;
+
+    // Adjust the conditions based on your scroll position preference
+    if (scrollX >= 0 && scrollX < window.innerWidth / 2) {
+        navLinks[1].style.color = 'red'; // Change color to red for Section 1
+       
+    } else {
+        navLinks[2].style.color = 'white'; // Change color to white for Section 1
+       
+    }
+}
+
+window.addEventListener('scroll', updateNavColor);
+
+
