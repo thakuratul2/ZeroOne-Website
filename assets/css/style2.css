@@ -498,10 +498,10 @@
  @media (max-width:640px) {
 	.container2{
 		display: block;
-		margin-left:5px;
+		margin-left:16vw;
 	}
 }
- .gallery{
+ .gallery2{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -514,7 +514,7 @@ justify-content: center;
     background-color: #3E0000;
     position: relative;
     font-size: 25px;
-    transition: width 0.5s;
+    transition: width 0.5s ease;
 }
 
 @media (max-width: 1359.98px) {
@@ -542,12 +542,8 @@ justify-content: center;
 	opacity: 1;
 	margin-left: 29px;
     margin-top: 20px;
-	transition: bottom 0.5s, opacity 0.5s;
-	transform: rotate(-90deg) translateX(-206px);
-	-webkit-transition: rotate(-90deg) translateX(-206px);
-	-moz-transform: rotate(-90deg) translateX(-206px);
-	-ms-transform: rotate(-90deg) translateX(-206px);
-	-o-transform: rotate(-90deg) translateX(-206px);
+	
+	
 }
 .img-box:hover{
 	width: 300px;
@@ -556,10 +552,6 @@ justify-content: center;
 .img-box:hover h3{
 	
 	padding-bottom: 0.5rem;
-	-webkit-transform: unset;
-	-moz-transform: unset;
-	-ms-transform: unset;
-	-o-transform: unset;
 }
 
 .title_new {
@@ -573,11 +565,8 @@ justify-content: center;
     margin: 0;
     max-width: 0; 
     opacity: 0;
-    transition: max-width 0.3s ease-in-out;
-    -webkit-transition: max-width 0.3s ease-in-out;
-    -moz-transition: max-width 0.3s ease-in-out;
-    -ms-transition: max-width 0.3s ease-in-out;
-    -o-transition: max-width 0.3s ease-in-out;
+    transition: max-width 0.5s ease;
+    
 }
 
 

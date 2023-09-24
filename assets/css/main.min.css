@@ -9975,12 +9975,13 @@ textarea:focus::placeholder {
     z-index: -1;
     border-radius: 50%;
     background-color: #6d0317;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     z-index: -1;
-    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out, height 0.5s ease;
     -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
     -moz-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
     -ms-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
@@ -9989,7 +9990,10 @@ textarea:focus::placeholder {
 
 ._btn.animate-btn:hover span {
     width: 37.5rem;
-    height: 37.5rem
+    height: 37.5rem;
+    background-color: #6d0317;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  
 }
 
 ._link {
@@ -17259,7 +17263,7 @@ footer .mob_footer .text p+p {
 
 @media (max-width:1439.98px) {
     .contact_sec .contact_address {
-        margin-left: 0.375rem;
+        margin-left: 5.375rem;
         padding-left: 6.25rem
     }
 }
