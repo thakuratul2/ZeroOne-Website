@@ -14766,11 +14766,7 @@ footer .mob_footer .text p+p {
     }
 }
 
-@media (max-width:640px) {
-    .home_sec .home_div {
-        margin: 7.5rem 0 2.5rem
-    }
-}
+
 
 .home_sec .home_div h1 {
     font-size: 85.25em;
@@ -14838,6 +14834,8 @@ footer .mob_footer .text p+p {
     .home_sec .home_div p{
         font-size: 0.9375rem;
         letter-spacing:1.5rem ;
+        margin-left: 30px;
+        
     }
 }
 
@@ -14855,7 +14853,7 @@ footer .mob_footer .text p+p {
 @media (max-width:640px) {
     .home_sec .home_div h1 {
         font-size: 7.75rem;
-        min-height: 11.25rem;
+       
         width: 100%;
         
     }
@@ -14871,7 +14869,7 @@ footer .mob_footer .text p+p {
     }
     .home_sec .home_div p{
         font-size: 0.7rem;
-        letter-spacing:0.5rem ;
+        letter-spacing:0.8rem ;
     }
 }
 

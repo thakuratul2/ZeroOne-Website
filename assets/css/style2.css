@@ -519,7 +519,7 @@ justify-content: center;
 	overflow: hidden;
 }
 
-@media (max-width: 1359.98px) {
+@media (max-width: 1349.98px) {
     .img-box {
 		overflow-x: scroll;
 		display: inline-block;
